@@ -5,7 +5,7 @@ const heartContainer = document.getElementById('heart-container');
             const heart = document.createElement('div');
             heart.classList.add('heart');
             heart.innerHTML = heartIcons[Math.floor(Math.random() * heartIcons.length)];
-            heart.style.left = Math.random * 100 + 'vw';
+            heart.style.left = Math.random() * 100 + 'vw';
 
             const size = Math.random() * 25 + 15;
             heart.style.fontSize = size + 'px';
